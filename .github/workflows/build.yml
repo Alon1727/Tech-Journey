@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: Alon1727/Tech-Journey:latest
+          tags: alon1727/tech-journey:latest
