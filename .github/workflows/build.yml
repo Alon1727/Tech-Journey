@@ -18,7 +18,7 @@ jobs:
         uses: docker/setup-buildx-action@v2
       -
         name: Debug Username
-        run: echo "Username length is ${#DOCKERHUB_USERNAME} characters"
+        run: echo "Username length is ${DOCKERHUB_USERNAME} characters"
         env:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
       -
